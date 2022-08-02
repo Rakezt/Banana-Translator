@@ -68,3 +68,6 @@ footer{
     height: 14vh;
     background-color:var(--blue-color) ;
 }
+footer #ft-color{
+    color: var(--primary-color)
+}
