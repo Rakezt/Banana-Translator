@@ -8,7 +8,7 @@ function getTranslation(text){
     return serverUrl+"?"+"text="+text;
 }
 function errorhandler(error){
-    console.log("error occured", error)
+    alert("Server is down, please try after sometime", error)
 }
 
 function clickHandler(){
